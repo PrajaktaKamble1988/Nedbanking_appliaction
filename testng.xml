@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NedBank_Application">
+<listeners>
+<listener class-name="com.Nedbank.Utilites.Extend_Reportes"/>
+</listeners>
+
+  <test name="Banking Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <!-- <class name="com.Nedbank.TestCases.TC_LoginPage_001"/> -->
+      <class name="com.Nedbank.TestCases.TC_Lgin_DDT_002"/>
+    </classes>
+  </test> 
+</suite>

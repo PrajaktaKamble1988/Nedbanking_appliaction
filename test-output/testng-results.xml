@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NedBank_Application" duration-ms="63507" started-at="2020-08-16T23:01:16Z" finished-at="2020-08-16T23:02:20Z">
+    <groups>
+    </groups>
+    <test name="Banking Test" duration-ms="63507" started-at="2020-08-16T23:01:16Z" finished-at="2020-08-16T23:02:20Z">
+      <class name="com.Nedbank.TestCases.TC_Lgin_DDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Nedbank.TestCases.TC_Lgin_DDT_002@5622fdf]" name="setup" is-config="true" duration-ms="27330" started-at="2020-08-16T11:01:17Z" finished-at="2020-08-16T11:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.Nedbank.TestCases.TC_Lgin_DDT_002@5622fdf]" name="loginDDT" duration-ms="13878" started-at="2020-08-16T11:01:47Z" data-provider="LoginData" finished-at="2020-08-16T11:02:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PrajaktaKambel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prajakta2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.Nedbank.TestCases.TC_Lgin_DDT_002@5622fdf]" name="loginDDT" duration-ms="9501" started-at="2020-08-16T11:02:01Z" data-provider="LoginData" finished-at="2020-08-16T11:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr277704]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ApEzEme]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.Nedbank.TestCases.TC_Lgin_DDT_002@5622fdf]" name="loginDDT" duration-ms="5864" started-at="2020-08-16T11:02:10Z" data-provider="LoginData" finished-at="2020-08-16T11:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MilindKAmble]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MilindKamble05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:com.Nedbank.TestCases.TC_Lgin_DDT_002@5622fdf]" name="endtest" is-config="true" duration-ms="3579" started-at="2020-08-16T11:02:16Z" finished-at="2020-08-16T11:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- com.Nedbank.TestCases.TC_Lgin_DDT_002 -->
+    </test> <!-- Banking Test -->
+  </suite> <!-- NedBank_Application -->
+</testng-results>
